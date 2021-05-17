@@ -47,6 +47,10 @@
     <Compile Include="Inheritance\Auto.cs" />
     <Compile Include="Inheritance\Motorka.cs" />
     <Compile Include="Inheritance\Vozidlo.cs" />
+    <Compile Include="Polymorphism\Kruh.cs" />
+    <Compile Include="Polymorphism\Obdelnik.cs" />
+    <Compile Include="Polymorphism\Trojuhelnik.cs" />
+    <Compile Include="Polymorphism\Tvar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
