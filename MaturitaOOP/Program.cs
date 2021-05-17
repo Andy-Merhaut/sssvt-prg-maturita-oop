@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MaturitaOOP.Constructors;
 
 namespace MaturitaOOP
 {
@@ -10,6 +7,16 @@ namespace MaturitaOOP
     {
         static void Main(string[] args)
         {
+            BasicMaths maths = new BasicMaths();
+            Console.WriteLine(maths.Vysledek);
+
+            BasicMaths mathz = new BasicMaths(1);
+            Console.WriteLine(mathz.Vysledek);
+
+            BasicMaths math = new BasicMaths(1, 2);
+            Console.WriteLine(math.Vysledek);
+
+            Console.ReadKey();
         }
     }
 }
